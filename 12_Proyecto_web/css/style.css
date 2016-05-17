@@ -1,0 +1,122 @@
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+
+#encabezado {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#encabezado figure {
+    margin: 0;
+}
+
+
+
+#encabezado #titulos * {
+    margin: 0;
+}
+
+
+
+#titulos h1 { font-size: 1.5em}
+#titulos h2 { font-size: 1.2em}
+#titulos h3 { font-size: 0.9em}
+#titulos h4 { font-size: 0.8em}
+
+
+
+#barra-navegacion {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#barra-navegacion li {
+    display: inline-block;
+    padding: 0;
+}
+
+
+
+#barra-navegacion ul ul {
+    display: none;
+}
+
+
+
+#barra-navegacion a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: darkgray;
+    transition: 0.5s;
+}
+
+
+
+#barra-navegacion ul {
+    padding: 0;
+}
+
+
+
+#barra-navegacion > ul > li > a:hover {
+    background-color: lightgray;
+}
+
+
+
+#nota-principal {
+    background-color: darkblue;
+    border: 10px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+    
+}
+
+
+#notas-secundarias {
+    width: 660px;
+    padding: 20px;
+    float: left;
+    height: 260px;
+    background-color: darkblue;  
+}
+
+
+
+#publicidad {
+    width: 210px;
+    padding: 5px;
+    float: right;
+    height: 290px;
+    background-color: darkblue;
+}
+
+
+#pie {
+    clear: both;
+    height: 150px;
+    background-color: darkblue;
+}
+
+
+
+figure
+{
+    margin: 0;
+}
+
+
+main {
+    margin-top: 10px;
+}
+

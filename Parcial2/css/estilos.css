@@ -1,0 +1,15 @@
+/*Archivo Externo CSS*/
+/*reset HTML*/
+body, h1, h2, h3, h4 ,h5, h6 {
+    margin: 0;
+    padding: 0;    
+}
+
+/*Genericas De Tipo Clase*/
+.text-center {text-align: center;}
+
+.text-rigth{text-align: right;}
+
+.text-left{text-align: left;}
+
+.text.justify{text-align: justify;}
